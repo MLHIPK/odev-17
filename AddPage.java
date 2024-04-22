@@ -13,10 +13,10 @@ public class AddPage extends BaseTest {
     String lastname="İpek";
     String useremail="pekm.3366@gmail.com";
     Integer age=33;
-    Integer salary=40000;
+    Integer salary=10000;
     String department="Destek Uzmanı";
     String edituseremail="pekm.3366@gmail.com";
-    Integer editsalary=45000;
+    Integer editsalary=15000;
 
     public AddPage addOpen() {
         Selenide.open("https://demoqa.com/webtables");
